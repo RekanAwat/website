@@ -1,0 +1,49 @@
+.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+}
+
+
+
+.h-custom {
+    height: calc(100% - 73px);
+}
+
+#welcome{
+    text-align: center;
+    margin-top: 3%;
+}
+
+#signin{
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+
+@media (max-width: 1200px) {
+    .h-custom {
+        height: 100%;
+    }
+
+    #logo {
+        display: none;
+    }
+}
+
+@media (max-width: 640px) {
+    .h-custom {
+        height: 100%;
+    }
+
+    #logo {
+        display: none;
+    }
+}
+
